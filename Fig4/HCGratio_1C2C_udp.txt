@@ -1,0 +1,3 @@
+DeNovoMethylation_u	DeMethylation_d	SemiMethylation_p
+0.012151	0.811321	0.1787
+0.008714	0.697265	0.296611
