@@ -1,0 +1,8 @@
+Rscript Fig2B.Calculation.r 1 &
+Rscript Fig2B.Calculation.r 2 &
+Rscript Fig2B.Calculation.r 3 &
+Rscript Fig2B.Calculation.r 4 &
+Rscript Fig2B.Calculation.r 5 &
+
+cat NewtonParametersDistribution_LPN2C_hg_LPN_8_hg_2C_6_1_run1.txt NewtonParametersDistribution_LPN2C_hg_LPN_8_hg_2C_6_1_run2.txt NewtonParametersDistribution_LPN2C_hg_LPN_8_hg_2C_6_1_run3.txt NewtonParametersDistribution_LPN2C_hg_LPN_8_hg_2C_6_1_run4.txt NewtonParametersDistribution_LPN2C_hg_LPN_8_hg_2C_6_1_run5.txt > NewtonParameters_DropoutDisturbing.txt
+python Fig2B.Calculation.py
